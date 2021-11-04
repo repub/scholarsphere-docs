@@ -1,3 +1,5 @@
+*draft*
+
 ## Can I deposit my scholarly article?
 
 Whether you can deposit your scholarly article and which version you can deposit depend on the agreement you signed with your publisher prior to publication.
