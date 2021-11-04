@@ -1,0 +1,9 @@
+site_name: ScholarSphere Documentation
+nav:
+  - 'Guides':
+    - 'Depositing Journal Article Postprints': 'guides/journal-article.md'
+    - 'Depositing Data & Code': 'guides/dataset.md'
+    - 'Choosing a License':  'guides/licenses.md'
+    - 'Writing a README':  'guides/writing-readme.md'
+    - 'Collections of Student Work': 'guides/collections.md'
+  - 'FAQ': faq.md
