@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Writing a README - ScholarSphere Documentation</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">ScholarSphere Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../journal-article/" class="dropdown-item">Depositing Journal Article Postprints</a>
+</li>
+                                    
+<li>
+    <a href="../dataset/" class="dropdown-item">Depositing Data & Code</a>
+</li>
+                                    
+<li>
+    <a href="../licenses/" class="dropdown-item">Choosing a License</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Writing a README</a>
+</li>
+                                    
+<li>
+    <a href="../collections/" class="dropdown-item">Collections of Student Work</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQ</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../licenses/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../collections/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#writing-a-readme" class="nav-link">Writing a README</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#readme-template" class="nav-link">README template</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="writing-a-readme">Writing a README</h1>
+<p>You can add additional documentation to ScholarSphere work pages by including a README file in your deposit. ScholarSphere accepts plain text (README.txt) and markdown (README.md) README files. After uploading the file, you may need to refresh the page for the contents of the README to appear.</p>
+<h2 id="readme-template">README template</h2>
+<p>The template below can be copy-and-pasted into a text file, preferably named <code>README.md</code> or <code>README.txt</code>, and expanded as needed. Text that appears in comment tags (<code>&lt;!-- like this ---&gt;</code>) is meant as guidance for README authors and should <em>not</em> be included in the final version. It is best to use a plain text editor such as TextEdit (Mac), Notepad (Windows), <a href="https://www.sublimetext.com/">Sublime</a>, <a href="https://atom.io/">Atom</a>, or <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
+<p>The template uses Markdown formatting. You can read more about markdown <a href="https://www.markdownguide.org/getting-started/">here</a>. It is based on Cornell's excellent <a href="https://data.research.cornell.edu/content/readme">Guide to "Readme" Style Metadata</a>.</p>
+<pre><code class="language-markdown">
+*This README.md file was generated on YYYYMMDD by NAME*
+&lt;!-- remove all comments (like this) before final save  --&gt;
+
+General Information
+------------------
+
+### Title:
+
+*Data and Code for &quot;Against Lorem Ipsum: A History of Filler Text&quot;*
+
+### Author Information:
+
+- Principal Investigator:
+- Associate or Co-investigator:
+- Alternate Contact(s):
+
+### Date of data collection/creation:
+&lt;!-- (single date, range, approximate date. Suggested format YYYYMMDD --&gt;
+
+### Geographic location of data collection:
+&lt;!--City, State, County, Country and/or GPS Coordinates or bounding boxes--&gt; 
+
+### Funders and sponsors of data collection:
+
+
+
+Sharing/Access Information
+--------------------------
+
+### License &amp; restrictions on data reuse:
+&lt;!-- Creative Commons Attribution 4.0 International (CC BY 4.0)  --&gt;
+
+### Recommended citation for the data:
+&lt;!-- suggested: Creator (PublicationYear). Title. Publisher. Identifier --&gt;
+
+### Related publications:
+&lt;!-- Citation for and links to publications that cite or use the data --&gt;
+
+### Links to other publicly accessible locations of the data:
+&lt;!-- for example, GitHub repo --&gt;
+
+### Related data sets: 
+
+
+Data &amp; File Overview
+--------------------
+
+### File list:
+&lt;!-- list files with brief descriptions --&gt;
+
+### Additional notes:
+
+&lt;!-- 
+Relationship between files, if important for context:
+Additional related data collected that was not included in the current data package:
+If data was derived from another source, list source:
+If there are there multiple versions of the dataset, list the file updated, when and why update was made:
+Software- or instrument-specific information needed to interpret the data, including software and hardware version numbers:
+--&gt;
+
+File/Format-Specific Information
+--------------------------------
+&lt;!--Create sections for each datafile or set, as appropriate--&gt;
+
+### `fig1.r`
+- Code Usage: 
+
+### `sample2/*.csv`
+- Number of variables:
+- Number of cases/rows: 
+- Variable list, defining any abbreviations, units of measure, codes or symbols used:
+- Missing data codes:
+- Specialized formats or other abbreviations used:
+
+
+Methodological Information
+--------------------------
+
+&lt;!-- 
+Description of methods used for collection/generation of data: &lt;Include links or references to publications or other documentation containing experimental design or protocols used in data collection&gt;
+Methods for processing the data: &lt;describe how the submitted data were generated from the raw or collected data&gt;
+Standards and calibration information, if appropriate:
+Environmental/experimental conditions:
+Describe any quality-assurance procedures performed on the data:
+People involved with sample collection, processing, analysis and/or submission: 
+--&gt;
+
+
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
