@@ -14,7 +14,7 @@ Please refer to [ScholarSphere's Content & Deposit Policy](https://scholarsphere
 ## Step-by-Step
 
 
-To deposit a dataset on ScholarSphere, follow these steps:
+### To deposit a dataset on ScholarSphere, follow these steps:
 
 - Start from the ScholarSphere homepage: https://scholarsphere.psu.edu
 - Make sure you are logged-in with your Penn State Access Account. Click the "Login" button in the top-right corner of the page to log in.
@@ -27,7 +27,7 @@ To deposit a dataset on ScholarSphere, follow these steps:
 - You should select the "Public" access setting.
 - Indicate that you agree to the depositor's agreement and click "publish" to complete the deposit. 
 
-Following deposit, you may choose to change the "work settings":
+### Following deposit, you may choose to change the "work settings":
 
 - For datasets, we recommend creating a DOI to use for citations.
 - You may want to add additional users as "editors" for the work.
