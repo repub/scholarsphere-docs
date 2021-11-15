@@ -20,11 +20,18 @@ At any point in the process, you can click the "Save as Draft & Exit" to save yo
 
 ## Work Details
 
-In this section, you may 
+![Work Details Page](images/work-details.png)
 
 ## Contributors
 
+![Contributors Page](images/contributors.png)
+
 ## Files
+
+![File Upload Page](images/file-upload.png)
 
 ## Review and Publish
 
+![Review](images/review.png)
+
+![Publish](images/publish.png)
