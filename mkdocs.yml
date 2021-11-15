@@ -1,6 +1,7 @@
 site_name: ScholarSphere Documentation
 nav:
   - 'Guides':
+    - 'Deposit Overview': 'guides/deposit-overview.md'
     - 'Depositing Journal Article Postprints': 'guides/journal-article.md'
     - 'Depositing Data & Code': 'guides/dataset.md'
     - 'Choosing a License':  'guides/licenses.md'
