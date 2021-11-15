@@ -20,7 +20,9 @@ At any point in the process, you can click the "Save as Draft & Exit" to save yo
 
 ## Work Details
 
-In this section, you may 
+In this section, you may add basic metadata for the work.
+
+![Work Details Form](images/work-details.png)
 
 ## Contributors
 
