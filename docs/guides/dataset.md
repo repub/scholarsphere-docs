@@ -9,7 +9,7 @@ Penn State researchers are encouraged to use ScholarSphere to share their work a
 
 Please refer to [ScholarSphere's Content & Deposit Policy](https://scholarsphere.psu.edu/policies) for more complete information.
 
-## Before you begin
+## Before You Deposit
 
 Before beginning the deposit process, you’ll want to prepare your materials and choose a license for the submission. 
 
