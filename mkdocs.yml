@@ -1,4 +1,5 @@
-site_name: ScholarSphere Documentation
+site_name: ScholarSphere Documentation (DRAFT)
+theme: readthedocs
 nav:
   - 'Guides':
     - 'Deposit Overview': 'guides/deposit-overview.md'
