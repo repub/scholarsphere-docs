@@ -1,222 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Depositing Data & Code - ScholarSphere Documentation</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Depositing Data & Code - ScholarSphere Documentation (DRAFT)</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Depositing Data & Code";
+    var mkdocs_page_input_path = "guides\\dataset.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
 
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">ScholarSphere Documentation</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<body class="wy-body-for-nav" role="document">
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../deposit-overview/" class="dropdown-item">Deposit Overview</a>
-</li>
-                                    
-<li>
-    <a href="../journal-article/" class="dropdown-item">Depositing Journal Article Postprints</a>
-</li>
-                                    
-<li>
-    <a href="./" class="dropdown-item active">Depositing Data & Code</a>
-</li>
-                                    
-<li>
-    <a href="../licenses/" class="dropdown-item">Choosing a License</a>
-</li>
-                                    
-<li>
-    <a href="../writing-readme/" class="dropdown-item">Writing a README</a>
-</li>
-                                    
-<li>
-    <a href="../collections/" class="dropdown-item">Collections of Student Work</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="navitem">
-                                <a href="../../faq/" class="nav-link">FAQ</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../journal-article/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../licenses/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
+  <div class="wy-grid-for-nav">
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#depositing-datasets-on-scholarsphere" class="nav-link">Depositing Datasets on ScholarSphere</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#metadata-recommendations" class="nav-link">Metadata Recommendations</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#step-by-step" class="nav-link">Step-by-Step</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> ScholarSphere Documentation (DRAFT)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Guides</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../deposit-overview/">Deposit Overview</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../journal-article/">Depositing Journal Article Postprints</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Depositing Data & Code</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#before-you-begin">Before you begin</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-deposit-process-step-by-step">The Deposit Process: Step-by-Step</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#work-details">Work Details</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#contributors">Contributors</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#files">Files</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#review-publish">Review &amp; Publish</a>
+    </li>
         </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#assigning-a-doi">Assigning a DOI</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#curation">Curation</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../licenses/">Choosing a License</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../writing-readme/">Writing a README</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../collections/">Collections of Student Work</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../faq/">FAQ</a>
+                    </li>
+                </ul>
+      </div>
     </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+    </nav>
 
-<h1 id="depositing-datasets-on-scholarsphere">Depositing Datasets on ScholarSphere</h1>
-<p>ScholarSphere supports Penn State’s commitment to open access and open science. Researchers at Penn State are encouraged to use ScholarSphere to satisfy data availability requirements (e.g., F.A.I.R) from funding agencies and publishers. However, there are some limits on what can be deposited on SchoalrSphere. </p>
-<p>Information with a Sensitive Information Classification of Moderate (Level 2) or higher according to <a href="https://policy.psu.edu/policies/ad95">Penn State Policy AD95 Information Assurance and IT Security</a> is not permitted in ScholarSphere. Examples of sensitive information that should not be deposited include: Social Security Numbers (SSNs), passport numbers, biometric data (including fingerprints, retina/facial images, and human DNA profile), birth dates, protected health information, and locations of endangered plants and animals or protected archaeological sites.</p>
-<p>There are also some size constraints. Deposits larger than 100 GB in size require approval from repository managers in Penn State Libraries.</p>
-<p>Please refer to <a href="https://scholarsphere.psu.edu/policies">ScholarSphere's Content &amp; Deposit Policy</a> for more complete information.</p>
-<h2 id="metadata-recommendations">Metadata Recommendations</h2>
-<h2 id="step-by-step">Step-by-Step</h2>
-<h3 id="to-deposit-a-dataset-on-scholarsphere-follow-these-steps">To deposit a dataset on ScholarSphere, follow these steps:</h3>
-<ul>
-<li>Start from the ScholarSphere homepage: https://scholarsphere.psu.edu</li>
-<li>Make sure you are logged-in with your Penn State Access Account. Click the "Login" button in the top-right corner of the page to log in.</li>
-<li>From the menu in the top-right corner (where your name appears), select the "Create New Work" option.</li>
-<li>The "New Work Form" is divided into four sections. The first section is for basic metadata. Here, you'll enter the title, work type, abstract, publication date, and other descriptive information for the dataset. For the work type, select "Dataset." For the optional metadata, you might add keywords and a geographic area (i.e., "State College, PA"), however many of the fields are not relevant.</li>
-<li>Click "Save and Continue" to proceed to the Contributors section. </li>
-<li>In the Contributors section, you can add all the authors for the article ("creators"). You can search for authors using their PSU email, ORCID, or just by entering their name. </li>
-<li>In the Files section, you can upload your data files and the README</li>
-<li>On the final section, you can review and publish the deposit. You should review the information you've entered and select a license. For data, we recommend the Creative Commons Public Domain Designation ("CC0 1.0 Universal"). You can read the license here: https://creativecommons.org/publicdomain/zero/1.0/</li>
-<li>You should select the "Public" access setting.</li>
-<li>Indicate that you agree to the depositor's agreement and click "publish" to complete the deposit. </li>
-</ul>
-<h3 id="following-deposit-you-may-choose-to-change-the-work-settings">Following deposit, you may choose to change the "work settings":</h3>
-<ul>
-<li>For datasets, we recommend creating a DOI to use for citations.</li>
-<li>You may want to add additional users as "editors" for the work.</li>
-</ul></div>
-            </div>
-        </div>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">ScholarSphere Documentation (DRAFT)</a>
+      </nav>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Guides &raquo;</li>
+        
+      
+    
+    <li>Depositing Data & Code</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
 </div>
 
-    </body>
+          <div role="main">
+            <div class="section">
+              
+                <div class="admonition danger"> <p class="admonition-title">Draft Content</p> <p>This guide is still in the draft stage. It may be incomplete or include inaccurate information. If you have suggestions for improving it, please <a href="https://github.com/repub/scholarsphere-docs/issues">submit an issue on GitHub</a>.</p></div>
+
+<h1 id="depositing-data-code">Depositing Data &amp; Code</h1>
+<p>Penn State researchers are encouraged to use ScholarSphere to share their work and to satisfy data availability requirements from funders and publishers. However, there are some limits on what can be shared through ScholarSphere:</p>
+<ul>
+<li>Information with a Sensitive Information Classification of Moderate (Level 2) or higher according to <a href="https://policy.psu.edu/policies/ad95">Penn State Policy AD95 Information Assurance and IT Security</a> is not permitted in ScholarSphere. Examples of sensitive information that should not be deposited include: Social Security Numbers (SSNs), passport numbers, biometric data (including fingerprints, retina/facial images, and human DNA profile), birth dates, protected health information, and locations of endangered plants and animals or protected archaeological sites.</li>
+<li>Deposits larger than 100 GB in size require approval from repository managers in Penn State Libraries.</li>
+</ul>
+<p>Please refer to <a href="https://scholarsphere.psu.edu/policies">ScholarSphere's Content &amp; Deposit Policy</a> for more complete information.</p>
+<h2 id="before-you-begin">Before you begin</h2>
+<p>Before beginning the deposit process, you’ll want to prepare your materials and choose a license for the submission. </p>
+<ul>
+<li><strong>Document your data with a README file</strong>: It’s important to document your dataset so that others can understand it and use it correctly. We strongly recommend including a “README.txt” file with all data submissions. Please refer to our guide for <a href="../writing-readme">writing READMEs</a>.</li>
+<li><strong>Convert files to open formats</strong>:  If your data includes proprietary file formats, consider providing versions in an open format to ensure greater accessibility. The Library of Congress provides an excellent resource on recommended file formats: <a href="https://www.loc.gov/preservation/resources/rfs/data.html#datasets">https://www.loc.gov/preservation/resources/rfs/data.html#datasets</a></li>
+<li><strong>Prepare compressed archive</strong>: If your dataset consists of multiple files (i.e., more than you would want to individually download) or if it is organized in a folder hierarchy that should be preserved, we recommend combining the files/folders in a compressed archive (e.g., .zip, or .tar.gz).</li>
+<li><strong>Choose a license</strong>: You will need to apply a license to your data to complete the deposit process. For open datasets, we recommend the CC0 Public Domain Dedication. For code, we recommend one of the open-source software licenses. Please refer to our guide for <a href="../licenses/">choosing a license</a>.</li>
+</ul>
+<h2 id="the-deposit-process-step-by-step">The Deposit Process: Step-by-Step</h2>
+<p>The <a href="../deposit-overview">Deposit Overview Guide</a> provides a general summary of the deposit process. Here we review specific concerns related to depositing datasets and code.</p>
+<h3 id="work-details">Work Details</h3>
+<p>Recommended for required fields:</p>
+<ul>
+<li><strong>Title</strong>: For datasets that support a journal article, we recommend the format: "Data for: <em>[Article Title]</em>". </li>
+<li><strong>Work Type</strong>: Select "Dataset"</li>
+<li><strong>Description</strong>: Provide brief description of the data. For datasets that support a journal article, you may include the article abstract.</li>
+</ul>
+<p>Recommended for optional fields:</p>
+<ul>
+<li><strong>Keywords</strong>: Include 3-4 descriptive keywords.</li>
+<li><strong>Related URLs</strong>: Include links to any related journal articles or project websites</li>
+<li><strong>Geographic Area</strong>: If the dataset relates to a specific geographical area (e.g., "State College, PA"), you may include it here.</li>
+</ul>
+<h3 id="contributors">Contributors</h3>
+<p>On the Contributors form, please include the names of all individuals who should receive authorship credit for the dataset. You may search by name, Penn State Access ID, or ORCiD.</p>
+<h3 id="files">Files</h3>
+<p>Upload your dataset files and README.txt here through the Files form. If the files are compressed in one or more (.zip or .tar.gz), please include the README.txt file separately.</p>
+<h3 id="review-publish">Review &amp; Publish</h3>
+<p>On the Review &amp; Publish page, you may review the information you have entered thus far. At the bottom of the form, there are two additional fields:</p>
+<ul>
+<li><strong>License</strong>:  For open datasets, we recommend the CC0 Public Domain Dedication. For code, we recommend one of the open-source software licenses. Please refer to our guide for <a href="../licenses/">choosing a license</a>.</li>
+<li><strong>Access</strong>: In almost all cases, the <em>Public</em> access is preferred.</li>
+</ul>
+<p>To complete the deposit, review the deposit agreement, agree to it, and click "Publish".</p>
+<h2 id="assigning-a-doi">Assigning a DOI</h2>
+<p>After completing the deposit, you may assign a Digital Object Identifier (DOI) to your submission. This is recommended unless the submission already has a DOI from another publisher or repository. To create a DOI for your submission:</p>
+<ul>
+<li>From the work's main page, click the "Work Settings" button.</li>
+<li>On the Work Settings page, click "Create a DOI for this work"</li>
+</ul>
+<p><img alt="Button to assign a DOI on the Work Settings page" src="../images/doi.png" /></p>
+<h2 id="curation">Curation</h2>
+<p>After completing the deposit, repository managers will review it to ensure that it is as complete, accessible, and understandable as possible. If they identify any required or suggested changes for you to make, they will contact you.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../licenses/" class="btn btn-neutral float-right" title="Choosing a License">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../journal-article/" class="btn btn-neutral" title="Depositing Journal Article Postprints"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../journal-article/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../licenses/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
 </html>
