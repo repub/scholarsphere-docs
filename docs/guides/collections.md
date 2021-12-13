@@ -14,7 +14,10 @@ Anyone with a valid PSU account can deposit work to ScholarSphere, however repos
 
 ## Creating Collections
 
-The general process for creating collections is, hopefully, fairly straight-forward. From the menu in the top-right corner of the ScholarSphere homepage, logged-in users can create collections using the "Create New Collection" form. Collections require a title and a description; additional metadata fields are recommended, especially publication date, keywords, and creators.
+The general process for creating collections is, hopefully, fairly straight-forward.
+
+-	 From the menu in the top-right corner of the ScholarSphere homepage, logged-in users can create collections using the "Create New Collection" form. 
+-	Collections require a title and a description; additional metadata fields are recommended, especially publication date, keywords, and creators.
 
 The form for creating and editing collections includes a tab called "works" where you can search for works to add to the collection. It's important to note that *you must have edit access for works to add them to a collection* -- you must be listed as an "editor" on the work's "Settings" page. This means that if students have deposited their own works (i.e., following the "self-deposit" approach outlined below), they need to add you (the collection creator) as an editor for the work before it can be included in the collection. This is not necessary using the "proxy deposit" approach because the collection and constituent works are created by the same person. 
 
@@ -22,7 +25,11 @@ The form for creating and editing collections includes a tab called "works" wher
 
 There are two common approaches for creating collections of student work - they differ in who creates the works that will comprise the collection. In the *self-deposit* scenario, students deposit their own works (giving the collection creator edit access in the process). Alternatively, in the *proxy deposit* scenario, the collection creator  deposits work on behalf of the students. In both scenarios, the collection creator adds work to the collection once the works are created. 
 
+### Self-Deposit
+
 The main advantage of the self-deposit approach is that it requires less work for the collection creator. In addition, when students deposit their own work, they agree to ScholarSphere's deposit agreement during the upload process--in the proxy deposit scenario, on the other hand, the collection creator must obtain permissions from students to upload works on their behalf (see below). 
+
+### Proxy Deposit
 
 The main advantage of the proxy deposit approach is that it tends to result in higher quality collections as librarians and instructors are more like to perform deposits in a complete and consistent manner. It also simplifies the permissions problem described above: students will not need to manually add the collection creator as an editor of their submissions. 
 
