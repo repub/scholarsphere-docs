@@ -26,6 +26,12 @@ At any point in the process, you can click the "Save as Draft & Exit" to save yo
 
 ![Contributors Page](images/contributors.png)
 
+You can search for authors using their ORCID ID, Penn State Access Account, email address, or name.
+
+### Adding Non-PSU Creators
+
+If someone is not a PSU community member, they will not appear on the list of suggested names, however the last choice on the list that you will see will say: "Not finding what you are looking for? Choose thid option to create your own."
+
 ## Files
 
 ![File Upload Page](images/file-upload.png)
