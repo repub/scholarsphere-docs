@@ -32,6 +32,12 @@ You can search for authors using their ORCID ID, Penn State Access Account, emai
 
 If someone is not a PSU community member, they will not appear on the list of suggested names, however the last choice on the list that you will see will say: "Not finding what you are looking for? Choose thid option to create your own."
 
+![Search Example](images/contrib1.png)
+
+Selecting this option will allow you to add people who don't have PSU ID and will label them as "Unidentified". 
+
+![Result](images/contrib2.png)
+
 ## Files
 
 ![File Upload Page](images/file-upload.png)
