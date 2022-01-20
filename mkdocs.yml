@@ -1,5 +1,7 @@
 site_name: ScholarSphere Documentation (DRAFT)
-theme: readthedocs
+theme:
+  name: readthedocs
+  custom_dir: theme_overrides/
 nav:
   - 'Guides':
     - 'Deposit Overview': 'guides/deposit-overview.md'

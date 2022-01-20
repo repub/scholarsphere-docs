@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto+Slab&display=swap');
+
+:root {
+  --mid-blue: #095498;
+  --dark-blue: #1e407c;
+  --gray-300: #dbdbdb;
+  --gray-800: #4e4e4e;
+  --gray-85: #d9d9d9;
+
+  --topbar-height: 56px;
+}
+
+body {
+  color: var(--gray-800);
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, .navbar-brand {
+  font-family: "Roboto Slab", "Rockwell", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: var(--topbar-height);
+}
+
+/* readthedocs Theme Nav Overrides */
+.wy-side-nav-search, .wy-nav-top {
+  background-color: var(--dark-blue);
+}
+
+.wy-nav-top {
+  margin-top: var(--topbar-height);
+}
+
+.wy-nav-side {
+  top: var(--topbar-height);
+}
+
+.wy-nav-content-wrap {
+  background-color: white;
+}
+
+.wy-nav-content {
+  background-color: white;
+  margin-top: var(--topbar-height);
+}
+
+@media (max-width: 768px) {
+  .wy-nav-content {
+    margin-top: 0;
+  }
+}
+
+/* readthedocs Theme Link Overrides */
+a, a:visited {
+  color: var(--mid-blue);
+}
+
+a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+.wy-menu-vertical a, .wy-menu-vertical a:visited {
+  color: var(--gray-85);
+}
+
+.wy-side-nav-search a, .wy-nav-top a {
+  color: white;
+}
+
+.wy-side-nav-search a:hover {
+  text-decoration: none;
+}
+
+.wy-menu-vertical a:active {
+  background-color: var(--mid-blue);
+}
+
+.wy-nav-content a {
+  font-weight: 600;
+}
+
+/* Custom Header */
+.topbar {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.topbar img {
+  height: 40px;
+}
+
+.navbar-brand {
+  position: relative;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  padding-top: .125rem;
+  padding-bottom: .125rem;
+  height: 40px;
+  line-height: 1.5;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-brand::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background: var(--gray-300);
+  right: -1.25rem;
+}
