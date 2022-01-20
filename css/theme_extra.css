@@ -28,6 +28,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--dark-blue);
 }
 
+.wy-nav-top {
+  margin-top: var(--topbar-height);
+}
+
+.wy-nav-side {
+  top: var(--topbar-height);
+}
+
 .wy-nav-content-wrap {
   background-color: white;
 }
@@ -37,8 +45,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--topbar-height);
 }
 
-.wy-nav-side {
-  top: var(--topbar-height);
+@media (max-width: 768px) {
+  .wy-nav-content {
+    margin-top: 0;
+  }
 }
 
 /* readthedocs Theme Link Overrides */
