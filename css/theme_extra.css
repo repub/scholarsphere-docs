@@ -1,191 +1,110 @@
-/*
- * Wrap inline code samples otherwise they shoot of the side and
- * can't be read at all.
- *
- * https://github.com/mkdocs/mkdocs/issues/313
- * https://github.com/mkdocs/mkdocs/issues/233
- * https://github.com/mkdocs/mkdocs/issues/834
- */
-.rst-content code {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    padding: 2px 5px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto+Slab&display=swap');
+
+:root {
+  --mid-blue: #095498;
+  --dark-blue: #1e407c;
+  --gray-300: #dbdbdb;
+  --gray-800: #4e4e4e;
+  --gray-85: #d9d9d9;
+
+  --topbar-height: 56px;
 }
 
-/**
- * Make code blocks display as blocks and give them the appropriate
- * font size and padding.
- *
- * https://github.com/mkdocs/mkdocs/issues/855
- * https://github.com/mkdocs/mkdocs/issues/834
- * https://github.com/mkdocs/mkdocs/issues/233
- */
-.rst-content pre code {
-  white-space: pre;
-  word-wrap: normal;
-  display: block;
-  padding: 12px;
-  font-size: 12px;
+body {
+  color: var(--gray-800);
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-/**
- * Fix code colors
- *
- * https://github.com/mkdocs/mkdocs/issues/2027
- */
-.rst-content code {
-    color: #E74C3C;
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, .navbar-brand {
+  font-family: "Roboto Slab", "Rockwell", serif;
 }
 
-.rst-content pre code {
-    color: #000;
-    background: #f8f8f8;
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: var(--topbar-height);
 }
 
-/*
- * Fix link colors when the link text is inline code.
- *
- * https://github.com/mkdocs/mkdocs/issues/718
- */
-a code {
-    color: #2980B9;
-}
-a:hover code {
-    color: #3091d1;
-}
-a:visited code {
-    color: #9B59B6;
+/* readthedocs Theme Nav Overrides */
+.wy-side-nav-search, .wy-nav-top {
+  background-color: var(--dark-blue);
 }
 
-/*
- * The CSS classes from highlight.js seem to clash with the
- * ReadTheDocs theme causing some code to be incorrectly made
- * bold and italic.
- *
- * https://github.com/mkdocs/mkdocs/issues/411
- */
-pre .cs, pre .c {
-    font-weight: inherit;
-    font-style: inherit;
+.wy-nav-content-wrap {
+  background-color: white;
 }
 
-/*
- * Fix some issues with the theme and non-highlighted code
- * samples. Without and highlighting styles attached the
- * formatting is broken.
- *
- * https://github.com/mkdocs/mkdocs/issues/319
- */
-.rst-content .no-highlight {
-  display: block;
-  padding: 0.5em;
-  color: #333;
+.wy-nav-content {
+  background-color: white;
+  margin-top: var(--topbar-height);
 }
 
-
-/*
- * Additions specific to the search functionality provided by MkDocs
- */
-
-.search-results {
-    margin-top: 23px;
+.wy-nav-side {
+  top: var(--topbar-height);
 }
 
-.search-results article {
-    border-top: 1px solid #E1E4E5;
-    padding-top: 24px;
+/* readthedocs Theme Link Overrides */
+a, a:visited {
+  color: var(--mid-blue);
 }
 
-.search-results article:first-child {
-    border-top: none;
+a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
 }
 
-form .search-query {
-    width: 100%;
-    border-radius: 50px;
-    padding: 6px 12px;  /* csslint allow: box-model */
-    border-color: #D1D4D5;
+.wy-menu-vertical a, .wy-menu-vertical a:visited {
+  color: var(--gray-85);
 }
 
-/*
- * Improve inline code blocks within admonitions.
- *
- * https://github.com/mkdocs/mkdocs/issues/656
- */
- .rst-content .admonition code {
-  color: #404040;
-  border: 1px solid #c7c9cb;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  background: #f8fbfd;
-  background: rgba(255, 255, 255, 0.7);
+.wy-side-nav-search a, .wy-nav-top a {
+  color: white;
 }
 
-/*
- * Account for wide tables which go off the side.
- * Override borders to avoid weirdness on narrow tables.
- *
- * https://github.com/mkdocs/mkdocs/issues/834
- * https://github.com/mkdocs/mkdocs/pull/1034
- */
-.rst-content .section .docutils {
-    width: 100%;
-    overflow: auto;
-    display: block;
-    border: none;
+.wy-side-nav-search a:hover {
+  text-decoration: none;
 }
 
-td, th {
-   border: 1px solid #e1e4e5 !important; /* csslint allow: important */
-   border-collapse: collapse;
+.wy-menu-vertical a:active {
+  background-color: var(--mid-blue);
 }
 
-/*
- * Without the following amendments, the navigation in the theme will be
- * slightly cut off. This is due to the fact that the .wy-nav-side has a
- * padding-bottom of 2em, which must not necessarily align with the font-size of
- * 90 % on the .rst-current-version container, combined with the padding of 12px
- * above and below. These amendments fix this in two steps: First, make sure the
- * .rst-current-version container has a fixed height of 40px, achieved using
- * line-height, and then applying a padding-bottom of 40px to this container. In
- * a second step, the items within that container are re-aligned using flexbox.
- *
- * https://github.com/mkdocs/mkdocs/issues/2012
- */
- .wy-nav-side {
-    padding-bottom: 40px;
+.wy-nav-content a {
+  font-weight: 600;
 }
 
-/*
- * The second step of above amendment: Here we make sure the items are aligned
- * correctly within the .rst-current-version container. Using flexbox, we
- * achieve it in such a way that it will look like the following:
- *
- * [No repo_name]
- *         Next >>                    // On the first page
- * << Previous     Next >>            // On all subsequent pages
- *
- * [With repo_name]
- *    <repo_name>        Next >>      // On the first page
- * <repo_name>  << Previous  Next >>  // On all subsequent pages
- *
- * https://github.com/mkdocs/mkdocs/issues/2012
- */
-.rst-versions .rst-current-version {
-    padding: 0 12px;
-    display: flex;
-    font-size: initial;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 40px;
+/* Custom Header */
+.topbar {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
-/*
- * Please note that this amendment also involves removing certain inline-styles
- * from the file ./mkdocs/themes/readthedocs/versions.html.
- *
- * https://github.com/mkdocs/mkdocs/issues/2012
- */
-.rst-current-version span {
-    flex: 1;
-    text-align: center;
+.topbar img {
+  height: 40px;
+}
+
+.navbar-brand {
+  position: relative;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  padding-top: .125rem;
+  padding-bottom: .125rem;
+  height: 40px;
+  line-height: 1.5;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-brand::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background: var(--gray-300);
+  right: -1.25rem;
 }
