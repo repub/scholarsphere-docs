@@ -39,7 +39,7 @@ If past projects are any guide, the proxy deposit approach seems to be the prefe
 
 If collection creators prefer to deposit works on students' behalf, then they will need to obtain permissions from the students. A recommended approach is to include this permission, with a link to the deposit agreement, in a form used to collect work submissions from students (examples are available upon request). For example:
 
- - "I hereby approve my project files to be uploaded to Scholarsphere under the conditions above and accept the terms of the ScholarSphere deposit agreement (https://scholarsphere.psu.edu/agreement).
+ - "I hereby approve my project files to be uploaded to ScholarSphere under the conditions above and accept the terms of the ScholarSphere deposit agreement (https://scholarsphere.psu.edu/agreement).
 
 ##  Preferred Licenses 
 

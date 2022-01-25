@@ -1,12 +1,13 @@
-site_name: ScholarSphere Documentation (DRAFT)
+site_name: Documentation
 theme:
   name: readthedocs
   custom_dir: theme_overrides/
 nav:
-  - 'Guides':
-    - 'Deposit Overview': 'guides/deposit-overview.md'
-    - 'Depositing Journal Article Postprints': 'guides/journal-article.md'
+  - 'Guides for new Submissions':
+    - 'Work Deposit Overview': 'guides/deposit-overview.md'
+    # - 'Journal Article Postprints': 'guides/journal-article.md'
     - 'Depositing Data & Code': 'guides/dataset.md'
+  - 'Additional Topics':
     - 'Choosing a License':  'guides/licenses.md'
     - 'Writing a README':  'guides/writing-readme.md'
     - 'Collections of Student Work': 'guides/collections.md'

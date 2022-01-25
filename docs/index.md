@@ -1,6 +1,4 @@
 
-<div class="admonition danger"> <p class="admonition-title">Under Development</p> <p>The guides published here are still being developed. They may be incomplete or include inaccurate information. If you have suggestions for improving it, please <a href="https://github.com/repub/scholarsphere-docs/issues">submit an issue on GitHub</a>.</p></div>
-
 ## About ScholarSphere
 
 ScholarSphere is an institutional repository managed by Penn State University Libraries. Anyone with a Penn State Access ID can deposit materials relating to the University’s teaching, learning, and research mission to ScholarSphere. All types of scholarly materials, including publications, instructional materials, creative works, and research data are accepted.
