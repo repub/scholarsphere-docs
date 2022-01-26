@@ -1,4 +1,4 @@
 # ScholarSphere Documentation Site
 
-- Built with mkdocs.
-- Published site: https://repub.github.io/scholarsphere-docs/
+the `gh-pages` branch of this repository is published as https://docs.scholarsphere.psu.edu
+
