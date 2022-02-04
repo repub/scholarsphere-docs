@@ -119,3 +119,13 @@ a:hover {
   background: var(--gray-300);
   right: -1.25rem;
 }
+
+/* Fix code preview spacing */
+code, .rst-content tt, .rst-content code {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
