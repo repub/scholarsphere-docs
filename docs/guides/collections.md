@@ -48,6 +48,6 @@ In most cases, creative commons licenses are preferred for student work.
 ## Example Collections
 
 - *Penn State Mont Alto 2021 Academic Festival*: 
-	- [https://scholarsphere.psu.edu/resources/152ba776-8c8a-419c-8d47-f09e89af6709]()
+	- [https://scholarsphere.psu.edu/resources/152ba776-8c8a-419c-8d47-f09e89af6709](https://scholarsphere.psu.edu/resources/152ba776-8c8a-419c-8d47-f09e89af6709)
 - *University Libraries Undergraduate Research Award: Excellence in Information Literacy Winners*: 
-	- [https://scholarsphere.psu.edu/resources/4fa44c76-6018-4bce-a7f6-3bcea70a332e]()
+	- [https://scholarsphere.psu.edu/resources/4fa44c76-6018-4bce-a7f6-3bcea70a332e](https://scholarsphere.psu.edu/resources/4fa44c76-6018-4bce-a7f6-3bcea70a332e)
