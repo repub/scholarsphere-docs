@@ -27,7 +27,7 @@ The [Deposit Overview Guide](../deposit-overview) provides a general summary of 
 Recommended for required fields:
 
 - __Title__: For datasets that support a journal article, we recommend the format: "Data for: *[Article Title]*". 
-- __Work Type__: Select "Dataset"
+- __Work Type__: Select "Dataset" or "Software .."
 - __Description__: Provide brief description of the data. For datasets that support a journal article, you may include the article abstract.
 
 Recommended for optional fields:
