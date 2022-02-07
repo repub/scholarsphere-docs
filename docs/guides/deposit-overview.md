@@ -90,3 +90,26 @@ The review and publish form is for finalizing your submission for publication. A
 
 
 ![Publish](images/publish.png)
+
+### Assigning a DOI
+
+After deposit, you may assign a DOI to your submission. A Digital Object Identifier ([DOI](https://www.doi.org/) is an alphanumeric string that uniquely identifies and facilitates citation of your work.
+
+<div class="admonition note">
+    <p class="admonition-title">When to create a DOI?</p>
+    <p>
+        We recommend minting DOIs for all submissions <i>unless the material already has a DOI from another publisher or repository</i>. If the work already has a DOI, include it in the "Publisher Identifiers" field on the Work Details form.
+    </p>
+ </div>
+
+To create a DOI for your submission:
+
+- From the work's main page, click the "Work Settings" button.
+- On the Work Settings page, click "Create a DOI for this work"
+
+### Setting an Embargo
+
+If necessary, you may apply an embargo on your submission. An embargo will block access to deposited files until after the embargo date. To set an embargo date:
+
+- From the work's main page, click the "Work Settings" button.
+- On the Work Settings page, enter the embargo date (yyyy-mm-dd) and click the “Update Embargo Settings” button.
