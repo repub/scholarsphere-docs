@@ -16,7 +16,7 @@
 2. Be of scholarly import, including publications, instructional materials, creative works, and research data produced in support of Penn State's teaching, learning, and research mission; and
 3. Meet the requirements of[ Penn State Policy AD69 Accessibility of Electronic and Information Technology](https://policy.psu.edu/policies/ad69).
 *   Information with a Sensitive Information Classification of Moderate (Level 2) or higher according to[ Penn State Policy AD95 Information Assurance and IT Security](https://policy.psu.edu/policies/ad95) is not permitted in ScholarSphere.
-*   For more, see[ ScholarSphere’s Content and Deposit Policy](/policies).
+*   For more, see[ ScholarSphere’s Content and Deposit Policy](https://scholarsphere.psu.edu/policies).
 
 <!-- #### Can I use ScholarSphere for managing my data, to comply with data management plan (DMP) requirements?  -->
 
@@ -35,25 +35,25 @@
 ## How can I update or remove my work?
 
 *   In ScholarSphere, your work exists as a series of “versions”. You may update and delete the draft version of the work. _Once a version is published, it cannot be modified or deleted_. You can, however, create a new version that supersedes the previous version. Old versions remain accessible unless they are withdrawn or deleted by repository managers. 
-*   If you need to withdraw or delete a work version, please contact us using the [Contact Form](/contact).
+*   If you need to withdraw or delete a work version, please contact us using the [Contact Form](https://scholarsphere.psu.edu/contact).
 
 ## What happens to my files in ScholarSphere after I leave Penn State? 
 
-*   The files remain in ScholarSphere and continue to be discoverable, accessible, and citable. If you have any questions or concerns about your files after you have left Penn State, you may submit them via our [Contact Form](/contact).
+*   The files remain in ScholarSphere and continue to be discoverable, accessible, and citable. If you have any questions or concerns about your files after you have left Penn State, you may submit them via our [Contact Form](https://scholarsphere.psu.edu/contact).
 
 ## Are materials deposited to ScholarSphere kept forever? 
 
-*   Deposited files and metadata are generally retained for the lifetime of the repository, however the guaranteed minimum preservation timeframe for work deposited to ScholarSphere is ten years. After that period, the Libraries may remove content that does not warrant continued preservation. For more, see [ScholarSphere’s Preservation Policy](/policies).
+*   Deposited files and metadata are generally retained for the lifetime of the repository, however the guaranteed minimum preservation timeframe for work deposited to ScholarSphere is ten years. After that period, the Libraries may remove content that does not warrant continued preservation. For more, see [ScholarSphere’s Preservation Policy](https://scholarsphere.psu.edu/policies).
 
 ## Are there limits to how much I can deposit to ScholarSphere? 
 
 *   There are no defined limits on file sizes, however uploading large files (larger than a few gigabytes) can be error prone, depending on your internet connection. 
-*   Deposits larger than 100 GB in size require approval from repository managers in Penn State Libraries. This limit applies to the total size of files in a work or in a collection of related works by the same depositor. For more, see [ScholarSphere’s Content and Deposit Policy](/policies).
-*   To receive approval for depositing large datasets, [contact us](/contact).
+*   Deposits larger than 100 GB in size require approval from repository managers in Penn State Libraries. This limit applies to the total size of files in a work or in a collection of related works by the same depositor. For more, see [ScholarSphere’s Content and Deposit Policy](https://scholarsphere.psu.edu/policies).
+*   To receive approval for depositing large datasets, [contact us](https://scholarsphere.psu.edu/contact).
 
 ## How can I deposit very large datasets that are too large to upload through the web browser? 
 
-*   We can arrange to receive large datasets using [Globus](https://www.globus.org/). [Contact us, and we will help you](/contact). 
+*   We can arrange to receive large datasets using [Globus](https://www.globus.org/). [Contact us, and we will help you](https://scholarsphere.psu.edu/contact). 
 
 ## What's the difference between ScholarSphere and cloud services like Dropbox? 
 
